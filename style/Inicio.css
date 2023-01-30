@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.Inicio{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.Passo2, .Passo3 {
+    display: none;
+}
+
+.Passo3 button{
+    margin-left: 2%;
+}
+
+#res{
+    font-size: 25px;
+}
+
+h1{
+    margin-top: 8%;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(to right, rgb(65,105,225), rgb(118, 25, 143));
+    text-align: center;
+    color: #fff;
+    
+}
+
+button{
+    background-color: slateblue;
+    color: #fff;
+    border: none;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px black;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: steelblue;
+    transition: all 0.5s ease-in;
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-left: 2%;
+}

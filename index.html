@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calcular nota !</title>
+    <link rel='stylesheet' href='./style/Inicio.css'>
+</head>
+<body>
+    <h1>Calculo de Notas</h1>
+    <div class="Inicio">
+        <div class="Passo1">
+            <p>Clique no botao para calcular sua nota</p>
+            <button onclick="go(1,2)">Iniciar</button>
+        </div>
+        <div class="Passo2">
+            <h3>Calculo de Notas</h3>
+            <hr>
+            <br>
+            <label for="nota1">Digite sua primera nota:</label>
+            <input type="number" placeholder="Primeira nota da N1" id="nota1">
+            <br><br>
+            <label for="nota2">Digite sua segunda nota:</label>
+            <input type="number" placeholder="Segunda nota da N2" id="nota2">
+            <br><br>    
+            <button onclick="validate()">Calcular</button>
+        </div>
+        <div class="Passo3">
+            <h3>Resultado!</h3>
+            <p>Essa é a nota que você precisa tirar para passar</p>
+            <p id="res">...</p>
+            <button onclick="go(3, 2)">Calcular Novamente</button>
+            <button onclick="go(3, 1)">Finalizar</button>
+        </div>
+    </div>
+    <script src="./java/Calculo.js"></script>
+</body>
+</html>
